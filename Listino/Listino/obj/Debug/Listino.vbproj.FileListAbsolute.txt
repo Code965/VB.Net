@@ -1,0 +1,11 @@
+C:\Users\domi1\OneDrive\Desktop\VbNet\Bar2\Listino\Listino\bin\Debug\Listino.exe.config
+C:\Users\domi1\OneDrive\Desktop\VbNet\Bar2\Listino\Listino\bin\Debug\Listino.exe
+C:\Users\domi1\OneDrive\Desktop\VbNet\Bar2\Listino\Listino\bin\Debug\Listino.pdb
+C:\Users\domi1\OneDrive\Desktop\VbNet\Bar2\Listino\Listino\bin\Debug\Listino.xml
+C:\Users\domi1\OneDrive\Desktop\VbNet\Bar2\Listino\Listino\obj\Debug\Listino.vbproj.AssemblyReference.cache
+C:\Users\domi1\OneDrive\Desktop\VbNet\Bar2\Listino\Listino\obj\Debug\Listino.Resources.resources
+C:\Users\domi1\OneDrive\Desktop\VbNet\Bar2\Listino\Listino\obj\Debug\Listino.vbproj.GenerateResource.cache
+C:\Users\domi1\OneDrive\Desktop\VbNet\Bar2\Listino\Listino\obj\Debug\Listino.vbproj.CoreCompileInputs.cache
+C:\Users\domi1\OneDrive\Desktop\VbNet\Bar2\Listino\Listino\obj\Debug\Listino.exe
+C:\Users\domi1\OneDrive\Desktop\VbNet\Bar2\Listino\Listino\obj\Debug\Listino.xml
+C:\Users\domi1\OneDrive\Desktop\VbNet\Bar2\Listino\Listino\obj\Debug\Listino.pdb

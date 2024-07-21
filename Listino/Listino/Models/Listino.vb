@@ -99,7 +99,7 @@ Public Class Listino
         For Each Item As Bevanda In ListaProdotti
 
             If Item.PCodiceBibita = codice Then
-                removeItem = Item
+                itemToRemove = Item
                 Exit For
             End If
 
@@ -114,5 +114,21 @@ Public Class Listino
 
 
     End Function
+
+
+    Public Sub visualizzaBirraIPAA(dscr As String)
+
+        For Each Item As Bevanda In ListaProdotti
+
+            If Item.PDescrizione = dscr Then
+                Console.WriteLine("Birra trovata " & Item.ToString())
+                Exit For
+            End If
+
+        Next
+
+
+    End Sub
+
 
 End Class

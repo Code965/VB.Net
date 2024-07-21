@@ -7,7 +7,7 @@
         Dim Listino As New Listino() 'Creo un oggetto listino che contiene i prodotti'
 
         While True
-            Console.WriteLine("Inserisci la tua scelta:  1 - Inserisci Bevanda 2 - Verifica Prodotto")
+            Console.WriteLine("Inserisci la tua scelta:  1 - Inserisci Bevanda 2 - Verifica Prodotto 3 - Visualizza Dettagli 4 - Stampa Listino 5 - Cancella Bibita 6 - Trova Biira IPA")
             Dim input As String = Console.ReadLine()
 
             If Integer.TryParse(input, scelta) Then
@@ -23,7 +23,24 @@
                             Console.WriteLine("Prodotto non presente nel listino")
                         End If
                     Case 3
-                        Listino.visualizzaDettagli()
+                        Console.WriteLine("inserisci il codice")
+                        Dim cc As Integer
+                        cc = Integer.Parse(Console.ReadLine())
+                        Listino.visualizzaDettagli(cc)
+                    Case 4
+
+                        Listino.stampaListino()
+                    Case 5
+                        Console.WriteLine("inserisci il codice")
+                        Dim cc As Integer
+                        cc = Integer.Parse(Console.ReadLine())
+                        Listino.cancellaBibita(cc)
+                    Case 6
+                        Console.WriteLine("inserisci la descrizione della birra")
+                        Dim cc As String
+                        cc = Console.ReadLine()
+                        Listino.visualizzaBirraIPAA(cc)
+
                     Case Else
                         Console.WriteLine("Opzione non valida. Uscita dal programma.")
                         Exit While

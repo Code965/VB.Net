@@ -73,14 +73,45 @@ Public Class Listino
 
 
     Public Sub visualizzaDettagli(codice As Integer)
+        For Each Item As Bevanda In ListaProdotti
+
+            If Item.PCodiceBibita = codice Then
+
+                Console.WriteLine(Item.ToString())
+            End If
+
+        Next
 
     End Sub
 
     Public Sub stampaListino()
+        For Each Item As Bevanda In ListaProdotti
 
+            Console.WriteLine(Item.ToString())
+
+        Next
     End Sub
 
-    Public Function cancellaBibita()
+    Public Function cancellaBibita(codice As Integer) As Boolean
+
+        Dim itemToRemove As Bevanda = Nothing
+
+        For Each Item As Bevanda In ListaProdotti
+
+            If Item.PCodiceBibita = codice Then
+                removeItem = Item
+                Exit For
+            End If
+
+        Next
+
+        If itemToRemove IsNot Nothing Then
+            ListaProdotti.Remove(itemToRemove)
+            Return True
+        Else
+            Return False
+        End If
+
 
     End Function
 

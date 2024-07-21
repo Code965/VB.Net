@@ -22,6 +22,8 @@
                         Else
                             Console.WriteLine("Prodotto non presente nel listino")
                         End If
+                    Case 3
+                        Listino.visualizzaDettagli()
                     Case Else
                         Console.WriteLine("Opzione non valida. Uscita dal programma.")
                         Exit While
